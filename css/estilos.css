@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2018/11/14/20/50/hd-3816045_1280.jpg");
+    font-family:'Roboto Slab', serif;
+    color: whitesmoke;
+    background-size: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+.menu {
+    background-color: #0a0822;
+    border: 1px dashed #150c3a;
+}
+
+.menu li {
+    list-style: none;
+    color: whitesmoke;
+}
+
+.menu ul {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #eac0e8;
+}
+
+.site-title{
+    margin-top: 100px;
+}
+
+
+.site-title,
+.site-subtitle {
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+
+}
+ 
